@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.App{
+  display: grid;
+  place-content: center;
+  height:100vh;
+  width: 100%;
+}
+.Advice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #0568fc;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 1);
+}
+.Advice h1{
+  font-size: 40px;
+  font-weight: 800;
+  font-style: italic;
+  margin: 10px 0;
+  text-align: center;
+}
+.Advice h3{
+  font-size: 50px;
+  margin: 10px 0;
+  text-align: center;
+}
+.Advice button{
+  padding: 16px 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: #0568fc;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.Advice button:hover{
+  color: white;
+  background-color: #0568fc;
+  border: white 2px solid;
+}
+.Advice .QouteShow{
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width:63.75em) {
+  .Advice h1{
+    font-size: 30px;
+  }
+  .Advice h3{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:63.75em) {
+  .Advice h1{
+    font-size: 25px;
+  }
+  .Advice .QouteShow{
+    line-height: 2rem;
+  }
+}
+/* 
+challenging project
+1. breaking down the projrct
+2. adaptation and time management
+3. seeking support and user recommendation
+4. staying organized
+5. Regular breaks and resting.
+
+
+criticism
+1. listen actively and keenly
+2. stay calm and composed
+3. evaluate the criticism and determine if the critidims is based on facts and work on tackling them
+4. show improvement and be positive.
+
+*/
